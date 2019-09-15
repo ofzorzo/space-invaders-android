@@ -10,11 +10,17 @@ You can choose whichever fits you best in the **Settings** menu.
 
 ## Building and running
 
-Connect your AVD or your USB debugging enabled physical device and run
+Firstly, you have to create a local.properties file and define the location of the Android SDK. For example, this is the content of my local.properties:
+```properties
+sdk.dir=D\:\\ProgramFiles\\JetBrains\\Utility\\Android\\SDK
 ```
+
+After that, connect your AVD or your USB debugging enabled physical device and run
+```
+gradlew build
 gradlew installDebug
 ```
-to install the app. To run it, you can simply click on its icon in the app drawer, or run the following command:
+to build and install the app, respectively. To run it, you can simply click on its icon in the app drawer, or run the following command:
 ```
 gradlew run
 ```
