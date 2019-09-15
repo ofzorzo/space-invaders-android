@@ -10,7 +10,7 @@ You can choose whichever fits you best in the **Settings** menu.
 
 ## Building and running
 
-Firstly, you have to create a local.properties file and define the location of the Android SDK. For example, this is the content of my local.properties:
+Firstly, you have to create a **local.properties** file and define the location of the Android SDK. For example, this is the content of my **local.properties**:
 ```properties
 sdk.dir=D\:\\ProgramFiles\\JetBrains\\Utility\\Android\\SDK
 ```
@@ -29,3 +29,5 @@ To uninstall the app, execute:
 ```
 gradlew uninstallAll
 ```
+
+Alternatively, you can also download an APK from the [releases page](https://github.com/ofzorzo/space-invaders-android/releases) and install it directly to your device.
